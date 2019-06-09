@@ -1,0 +1,13 @@
+<app-header titulo="Inicio" ></app-header>
+
+<ion-content>
+<ion-list>
+    <ion-item [routerLink]="c.url" *ngFor="let c of componentes">
+       <ion-icon [name]="c.icono" slot="start"></ion-icon>
+        <ion-label>
+            {{c.nombre}}
+        </ion-label>
+    </ion-item>
+</ion-list>
+
+</ion-content>

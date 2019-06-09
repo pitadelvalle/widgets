@@ -1,0 +1,13 @@
+<app-header titulo = "{{nuevoTitulo||'Pagina alert'}}"></app-header>
+
+<ion-content>
+<ion-button expand="full" color="primary" (click)="presentAlertConfirm()">Mostrar alert</ion-button>
+<ion-item>
+    <ion-label>Formato de fechas (selector de fechas)</ion-label>
+    <ion-datetime 
+    diplay-format="DD de MMM de YYYY" 
+    picker-format="DD MMM YYYY"
+    month-names="Ene,Feb,Mar,Abr,May,Jun,Jul,Ago,Sep,Oct,Nov,Dic"
+    ></ion-datetime>
+</ion-item>
+</ion-content>

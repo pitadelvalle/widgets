@@ -74,4 +74,56 @@
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+
+  
+  /** li**/
+  --ion-color-li: #ec0cec;
+  --ion-color-li-rgb: 244, 244, 244;
+  --ion-color-li-contrast: #000000;
+  --ion-color-li-contrast-rgb: 0, 0, 0;
+  --ion-color-li-shade: #d7d8da;
+  --ion-color-li-tint: #f5f6f9i;
+
+  /**youtube**/
+  --ion-color-youtube: #f3310e;
+  --ion-color-youtube-rgb: 244, 244, 244;
+  --ion-color-youtube-contrast: #ffffff;
+  --ion-color-youtube-contrast-rgb: 0, 0, 0;
+  --ion-color-youtube-shade: #d7d8da;
+  --ion-color-youtube-tint: #f5f6f9i;
+
+/**what**/
+  --ion-color-whats: #26be08;
+  --ion-color-whats-rgb: 244, 244, 244;
+  --ion-color-whats-contrast: #ffffff;
+  --ion-color-whats-contrast-rgb: 0, 0, 0;
+  --ion-color-whats-shade: #d7d8da;
+  --ion-color-whats-tint: #f5f6f9i;
+}
+.ion-color-li
+{
+  --ion-color-base: var(--ion-color-li)!important;
+  --ion-color-base-rgb: var(--ion-color-li-rgb)!important;
+  --ion-color-contrast: var(--ion-color-li-contrast)!important;
+  --ion-color-contrast-rgb: var(--ion-color-li-contrast-rgb)!important;
+  --ion-color-shade: var(--ion-color-li-shade)!important;
+  --ion-color-tint: var(--ion-color-li-tint)!important;
+}
+.ion-color-youtube
+{
+  --ion-color-base: var(--ion-color-youtube)!important;
+  --ion-color-base-rgb: var(--ion-color-youtube-rgb)!important;
+  --ion-color-contrast: var(--ion-color-youtube-contrast)!important;
+  --ion-color-contrast-rgb: var(--ion-color-youtube-contrast-rgb)!important;
+  --ion-color-shade: var(--ion-color-youtube-shade)!important;
+  --ion-color-tint: var(--ion-color-youtube-tint)!important;
+}
+.ion-color-whats
+{
+  --ion-color-base: var(--ion-color-youtube)!important;
+  --ion-color-base-rgb: var(--ion-color-youtube-rgb)!important;
+  --ion-color-contrast: var(--ion-color-youtube-contrast)!important;
+  --ion-color-contrast-rgb: var(--ion-color-youtube-contrast-rgb)!important;
+  --ion-color-shade: var(--ion-color-youtube-shade)!important;
+  --ion-color-tint: var(--ion-color-youtube-tint)!important;
 }
